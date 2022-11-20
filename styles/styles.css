@@ -4,3 +4,9 @@
   --shinglefawn: #6e5130;
   --saddle: #553628;
 }
+
+body {
+  background-color: var(--donkeybrown);
+  margin: 0;
+  padding: 0;
+}
