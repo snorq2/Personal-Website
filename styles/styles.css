@@ -9,4 +9,39 @@ body {
   background-color: var(--donkeybrown);
   margin: 0;
   padding: 0;
+  color: var(--birch);
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  height: 50px;
+  background-color: var(--birch);
+  color: white;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+  align-content: center;
+}
+
+.list-item {
+  display: flex;
+  height: 50px;
+  width: 75px;
+  justify-content: center;
+  align-items: center;
+  /* text-decoration: none;
+  color: white; */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+#nav-head {
+  margin-left: 15px;
+  margin-right: auto;
+  align-self: center;
+  text-align: center;
 }

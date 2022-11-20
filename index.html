@@ -6,9 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script>
+      $(function () {
+        $("#navbar").load("navbar.html");
+      });
+    </script>
   </head>
   <body>
-    <main>
+    <div id="navbar"></div>
+    <main id="index-body">
       <img src="images/Sawyer_Face_1.jpg" alt="Sawyer's face" />
       <p>
         I am Sawyer Norquist, engager of thought and things. In particular, I
