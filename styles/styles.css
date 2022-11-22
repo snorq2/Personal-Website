@@ -6,10 +6,34 @@
 }
 
 body {
-  background-color: var(--donkeybrown);
+  /* display: block; */
+  background-color: var(--saddle);
   margin: 0;
   padding: 0;
   color: var(--birch);
+}
+
+.content {
+  background-color: var(--donkeybrown);
+  max-width: 1024px;
+  width: 100%;
+  margin: auto;
+  padding: 15px;
+}
+
+.index {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#front-image {
+  border-radius: 15px;
+}
+
+.content-element {
+  margin: 15px;
+  /* min-width: 400px; */
 }
 
 .nav-list {

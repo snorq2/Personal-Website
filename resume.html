@@ -6,9 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume</title>
     <link rel="stylesheet" href="styles/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script>
+      $(function () {
+        $("#navbar").load("navbar.html");
+      });
+    </script>
   </head>
   <body>
-    <main>
+    <div id="navbar"></div>
+    <main class="content">
       <h1>Resume</h1>
       <div>
         <h2>Personal Summary</h2>
