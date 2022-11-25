@@ -6,7 +6,6 @@
 }
 
 body {
-  /* display: block; */
   background-color: var(--saddle);
   margin: 0;
   padding: 0;
@@ -18,7 +17,7 @@ body {
   max-width: 1024px;
   width: 100%;
   margin: auto;
-  padding: 15px;
+  padding: 25px;
 }
 
 .index {
@@ -33,39 +32,80 @@ body {
 
 .content-element {
   margin: 15px;
-  /* min-width: 400px; */
+}
+
+.resume-section {
+  border-top: var(--donkeybrown);
+  border-top-style: groove;
+  border-top-width: 4px;
+}
+
+.resume-position {
+  display: flex;
 }
 
 .projects {
   display: flex;
   gap: 30px;
   justify-content: center;
-  /* align-content: space-around; */
   flex-wrap: wrap;
   padding: 15px 0px;
 }
 
 .project-box {
   display: inline-block;
-  /* justify-content: center;
-  align-content: center;
-  align-items: center; */
   width: 275px;
-  /* margin: 15px auto; */
-  /* padding: 15px; */
   text-align: center;
   border-style: ridge;
   border-color: var(--saddle);
   border-width: 4px;
 }
 
-.project-item {
+.project-image {
+  max-height: 200px;
+  max-width: 200px;
+  height: auto;
+  width: auto;
+  margin: 15px;
 }
 
-.project-image {
-  height: auto;
-  width: 250px;
+#form-outline {
+  display: block;
+  border-style: ridge;
+  border-color: var(--saddle);
+  border-width: 4px;
+  width: fit-content;
+  text-align: start;
+  justify-content: start;
+  margin: auto;
 }
+
+#message {
+  width: 400px;
+  height: 200px;
+}
+
+.form-element {
+  display: grid;
+  /* grid-template-columns: 2fr 9fr; */
+  margin: 15px;
+}
+
+#btn-box {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn {
+  width: 100px;
+}
+
+/* .form-element {
+  display: grid;
+  grid-template-columns: 2fr 9fr;
+  margin: 15px;
+} */
 
 .nav-list {
   display: flex;

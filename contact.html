@@ -16,34 +16,25 @@
   <body>
     <div id="navbar"></div>
     <main class="content">
+      <h1>Contact Form</h1>
       <div id="form-outline">
         <form action="" class="form">
-          <h1>Registration Form</h1>
           <div class="form-element">
-            <label for="username">Name:</label>
-            <input
-              type="text"
-              name="username"
-              id="username"
-              class="input-box"
-            />
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="username" class="input-box" />
           </div>
           <div class="form-element">
             <label for="email">Email:</label>
             <input type="email" name="email" id="email" class="input-box" />
           </div>
           <div class="form-element">
-            <label for="password">Password:</label>
-            <input
-              type="password"
-              name="password"
-              id="password"
-              class="input-box"
-            />
-          </div>
-          <div class="form-element">
-            <label for="date">Date:</label>
-            <input type="date" name="date" id="date" class="input-box" />
+            <label for="message">Message:</label>
+            <textarea
+              name="message"
+              id="message"
+              class="message"
+              placeholder="Why yes, the colors are SPLENDED!  Remind me of my days as a chocolatier."
+            ></textarea>
           </div>
           <div id="btn-box" class="form-element">
             <button type="submit" class="btn" id="btn-submit">Submit</button>
