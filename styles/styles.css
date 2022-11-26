@@ -20,6 +20,12 @@ body {
   padding: 25px;
 }
 
+.content-header {
+  display: block;
+  text-align: center;
+  /* margin: auto; */
+}
+
 .index {
   display: flex;
   justify-content: center;
@@ -40,6 +46,18 @@ body {
   border-top-width: 4px;
 }
 
+.resume-section ul {
+  list-style-type: circle;
+}
+
+.resume-degree {
+  margin: 0px;
+}
+
+.resume-grad-date {
+  margin-top: 0px;
+}
+
 .resume-position {
   /* display: flex; */
 }
@@ -55,18 +73,48 @@ body {
 .project-box {
   display: inline-block;
   width: 275px;
+  height: auto;
   text-align: center;
-  border-style: ridge;
+  align-items: center;
+  border-style: double;
   border-color: var(--saddle);
   border-width: 4px;
+  border-radius: 4px;
+}
+
+.project-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 210px;
+  margin: auto;
 }
 
 .project-image {
-  max-height: 200px;
-  max-width: 200px;
-  height: auto;
-  width: auto;
-  margin: 15px;
+  width: 200px;
+  margin: auto;
+}
+
+.project-description {
+  height: 72px;
+}
+
+.project-link {
+  display: block;
+  border-color: var(--birch);
+  border-style: groove;
+  border-radius: 4px;
+  width: fit-content;
+  text-decoration: none;
+  margin: 10px auto;
+  padding: 5px;
+  color: inherit;
+}
+
+.project-link:hover {
+  background-color: var(--birch);
+  color: whitesmoke;
 }
 
 #form-outline {
@@ -89,6 +137,7 @@ body {
   display: grid;
   /* grid-template-columns: 2fr 9fr; */
   margin: 15px;
+  font-family: inherit;
 }
 
 #btn-box {
@@ -98,7 +147,13 @@ body {
 }
 
 .btn {
+  border-color: var(--saddle);
   width: 100px;
+  background-color: inherit;
+}
+
+.btn:hover {
+  background-color: inherit;
 }
 
 /* .form-element {
