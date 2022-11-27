@@ -12,12 +12,23 @@ body {
   color: var(--birch);
 }
 
-.content {
-  background-color: var(--donkeybrown);
-  max-width: 1024px;
-  width: 90%;
-  margin: auto;
-  padding: 25px;
+@media (min-width: 1025px) {
+  .content {
+    background-color: var(--donkeybrown);
+    max-width: 1024px;
+    width: 90%;
+    margin: auto;
+    padding: 25px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .content {
+    background-color: var(--donkeybrown);
+    /* width: 90%; */
+    margin: auto;
+    /* padding: 25px; */
+  }
 }
 
 .content-header {
