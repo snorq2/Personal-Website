@@ -25,9 +25,7 @@ body {
 @media (max-width: 1024px) {
   .content {
     background-color: var(--donkeybrown);
-    /* width: 90%; */
-    margin: auto;
-    padding-top: 25px;
+    padding: 25px;
   }
 }
 
