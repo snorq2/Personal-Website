@@ -15,7 +15,7 @@ body {
 .content {
   background-color: var(--donkeybrown);
   max-width: 1024px;
-  width: 100%;
+  width: 90%;
   margin: auto;
   padding: 25px;
 }
@@ -175,6 +175,10 @@ body {
   grid-template-columns: 2fr 9fr;
   margin: 15px;
 } */
+
+#navbar {
+  width: 100%;
+}
 
 .nav-list {
   display: flex;
