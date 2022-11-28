@@ -67,10 +67,6 @@ body {
   margin-top: 0px;
 }
 
-.resume-position {
-  /* display: flex; */
-}
-
 .projects {
   display: flex;
   gap: 30px;
