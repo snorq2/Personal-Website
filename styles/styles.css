@@ -205,13 +205,6 @@ body {
   align-content: center;
 }
 
-/* .list-item {
-  display: flex;
-  width: 75px;
-  justify-content: center;
-  align-items: center;
-} */
-
 .nav-link {
   display: flex;
   width: 75px;
@@ -244,6 +237,7 @@ body {
 @media (max-width: 768px) {
   .icon {
     display: flex;
+    color: white;
     height: 50px;
     width: 75px;
   }
@@ -252,9 +246,9 @@ body {
     display: none;
   }
 
-  .icon i {
+  /* .icon i {
     color: whitesmoke;
-  }
+  } */
 
   .nav-list.responsive {
     display: flex;

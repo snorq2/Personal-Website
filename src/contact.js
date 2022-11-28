@@ -1,5 +1,4 @@
 document.getElementById("contact-form").onsubmit = () => {
-  // event.preventdefault();
   let mainForm = document.getElementById("contact-form");
 
   if (mainForm.elements.name.value === "") {
@@ -19,7 +18,18 @@ document.getElementById("contact-form").onsubmit = () => {
 
   alert("Message sent!");
 
+  event.preventDefault();
+
+  console.group();
+
   console.log("Name: " + mainForm.elements.name.value);
   console.log("Email: " + mainForm.elements.email.value);
   console.log("Message: " + mainForm.elements.message.value);
+
+  console.groupEnd();
+
+  //Meant to mimic clear on submit.  Done ONLY because event.preventDefault() also prevents page reload!
+  mainForm.elements.name.value = "";
+  mainForm.elements.email.value = "";
+  mainForm.elements.message.value = "";
 };
