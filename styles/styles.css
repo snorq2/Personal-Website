@@ -230,15 +230,22 @@ body {
 }
 
 #nav-head {
-  margin-left: 15px;
-  margin-right: auto;
-  align-self: center;
+  display: flex;
   text-align: center;
+  justify-content: center;
+  height: 50px;
+  margin: auto auto auto 15px;
+}
+
+#nav-head h1 {
+  margin: auto 0;
 }
 
 @media (max-width: 768px) {
   .icon {
     display: flex;
+    height: 50px;
+    width: 75px;
   }
 
   .nav-wide {
@@ -250,20 +257,21 @@ body {
   }
 
   .nav-list.responsive {
-    position: fixed;
-    right: 0;
-    top: 0;
     display: flex;
     flex-direction: column;
     text-align: right;
     height: auto;
   }
 
-  .nav-list.responsive #nav-head {
-    display: none;
+  .nav-list.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 50px;
+    width: 75px;
   }
 
-  .nav-list.responsive .nav-link {
+  .nav-list.responsive .nav-wide {
     display: flex;
     margin: 10px;
   }

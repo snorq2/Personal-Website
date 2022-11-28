@@ -1,8 +1,8 @@
 function hamburger_click() {
-  var x = document.getElementById("nav-list-links");
-  if (x.className === "nav-list") {
-    x.className += " responsive";
+  var navlist = document.getElementById("nav-list-links");
+  if (navlist.className === "nav-list") {
+    navlist.className += " responsive";
   } else {
-    x.className = "nav-list";
+    navlist.className = "nav-list";
   }
 }
