@@ -1,17 +1,42 @@
-<nav class="nav-body">
-  <ul class="nav-list">
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
+<script defer src="src/responsive.js"></script>
+<!-- <nav class="nav-body">
+  <ul id="nav-list-links" class="nav-list">
     <h1 id="nav-head">Sawyer Norquist</h1>
-    <li class="list-item">
+    <li class="list-item list-wide">
       <a href="index.html" class="nav-link">Home</a>
     </li>
-    <li class="list-item">
+    <li class="list-item list-wide">
       <a href="resume.html" class="nav-link">Resume</a>
     </li>
-    <li class="list-item">
+    <li class="list-item list-wide">
       <a href="projects.html" class="nav-link">Projects</a>
     </li>
-    <li class="list-item">
+    <li class="list-item list-wide">
       <a href="contact.html" class="nav-link">Contact</a>
     </li>
+    <li class="list-item icon">
+      <a href="javascript:void(0);" onclick="hamburger_click()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </li>
   </ul>
-</nav>
+</nav> -->
+
+<div id="nav-list-links" class="nav-list">
+  <h1 id="nav-head">Sawyer Norquist</h1>
+  <a
+    class="nav-link icon"
+    href="javascript:void(0);"
+    onclick="hamburger_click()"
+  >
+    <i class="fa fa-bars"></i>
+  </a>
+  <a href="index.html" class="nav-link nav-wide">Home</a>
+  <a href="resume.html" class="nav-link nav-wide">Resume</a>
+  <a href="projects.html" class="nav-link nav-wide">Projects</a>
+  <a href="contact.html" class="nav-link nav-wide">Contact</a>
+</div>
