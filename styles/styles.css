@@ -5,6 +5,8 @@
   --saddle: #553628;
 }
 
+/* Site-wide styles */
+
 body {
   background-color: var(--saddle);
   margin: 0;
@@ -36,6 +38,12 @@ body {
   /* margin: auto; */
 }
 
+.content-element {
+  margin: 15px;
+}
+
+/* Index/about styles */
+
 .index {
   display: flex;
   justify-content: center;
@@ -46,9 +54,7 @@ body {
   border-radius: 15px;
 }
 
-.content-element {
-  margin: 15px;
-}
+/* Resume styles */
 
 .resume-section {
   border-top: var(--donkeybrown);
@@ -67,6 +73,8 @@ body {
 .resume-grad-date {
   margin-top: 0px;
 }
+
+/* Project syles */
 
 .projects {
   display: flex;
@@ -123,6 +131,8 @@ body {
   background-color: var(--birch);
   color: whitesmoke;
 }
+
+/* Form styles */
 
 #form-outline {
   display: block;
@@ -181,13 +191,14 @@ body {
   color: inherit;
 }
 
+/* Navbar styles */
+
 #navbar {
   width: 100%;
 }
 
 .nav-list {
   display: flex;
-  list-style: none;
   height: 50px;
   background-color: var(--birch);
   color: white;
@@ -220,6 +231,11 @@ body {
   justify-content: center;
   height: 50px;
   margin: auto auto auto 15px;
+}
+
+#nav-head a {
+  text-decoration: none;
+  color: white;
 }
 
 #nav-head h1 {
@@ -261,4 +277,23 @@ body {
     display: flex;
     margin: 10px;
   }
+}
+
+/* Footer styles */
+
+#footer {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: right;
+  background-color: var(--birch);
+  color: white;
+}
+
+#footer p {
+  margin-right: 15px;
+}
+
+#footer a {
+  margin: auto auto auto 15px;
 }
