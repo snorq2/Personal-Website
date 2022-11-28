@@ -255,14 +255,9 @@ body {
     display: none;
   }
 
-  /* .icon i {
-    color: whitesmoke;
-  } */
-
   .nav-list.responsive {
     display: flex;
     flex-direction: column;
-    text-align: right;
     height: auto;
   }
 
@@ -277,6 +272,7 @@ body {
   .nav-list.responsive .nav-wide {
     display: flex;
     margin: 10px;
+    justify-content: left;
   }
 }
 
