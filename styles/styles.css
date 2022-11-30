@@ -109,6 +109,11 @@ body {
   margin: auto;
 }
 
+.project-title {
+  height: 2em;
+  margin: 15px 10px;
+}
+
 .project-description {
   height: 110px;
   margin: 10px;
@@ -165,6 +170,7 @@ body {
     margin: 15px;
     font-family: inherit;
   }
+
   #message {
     width: 250px;
     height: 200px;
@@ -193,7 +199,7 @@ body {
 /* Navbar styles */
 
 #navbar {
-  width: 100%;
+  /* width: 100%; */
 }
 
 .nav-list {
@@ -209,7 +215,7 @@ body {
 
 .nav-link {
   display: flex;
-  width: 75px;
+  width: 85px;
   justify-content: center;
   align-items: center;
   text-decoration: none;
@@ -279,7 +285,7 @@ body {
 
 #footer {
   display: flex;
-  width: 100%;
+  /* width: 100%; */
   height: 50px;
   justify-content: right;
   background-color: var(--birch);

@@ -1,6 +1,8 @@
 document.getElementById("contact-form").onsubmit = () => {
   let mainForm = document.getElementById("contact-form");
 
+  event.preventDefault();
+
   if (mainForm.elements.name.value === "") {
     alert("Please enter your name");
     return;
@@ -17,8 +19,6 @@ document.getElementById("contact-form").onsubmit = () => {
   }
 
   alert("Message sent!");
-
-  event.preventDefault();
 
   console.group();
 
