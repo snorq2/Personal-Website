@@ -2,7 +2,12 @@ Created By: Sawyer Norquist
 Class: CS410
 Project Info: Personal website created for CS410 using HTML, CSS, and JavaScript.
 
-Deployment: Ready for deployment on webhost.
+GitHub Deployment:
+
+1.  Upload files to GitHub Repository
+2.  Navigate to repository settings -> Pages
+3.  Select appropriate branch (default is main) and save
+4.  Wait for GitHub to build site
 
 Image resources:
 https://publicdomainvectors.org/
