@@ -1,3 +1,5 @@
+Update 1/13/2024 - Restarting development to update information and add technology demonstrations such as Bootstrap and React.
+
 Created By: Sawyer Norquist
 Class: CS410
 Project Info: Personal website created for CS410 using HTML, CSS, and JavaScript.
