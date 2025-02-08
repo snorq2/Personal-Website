@@ -1,4 +1,6 @@
-Update 1/13/2024 - Restarting development to update information and add technology demonstrations such as Bootstrap and React.
+Update 1/13/2025 - Restarting development to update information and add technology demonstrations such as Bootstrap and React.
+
+Update 2/7/2025 - Development split into new repository: [personal-website-2](https://github.com/snorq2/personal-website-2)
 
 Created By: Sawyer Norquist
 Class: CS410
